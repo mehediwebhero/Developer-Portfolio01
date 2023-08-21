@@ -1,0 +1,248 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+/* common-css */
+.link-btn {
+    border: 0;
+    height: 64px;
+    background: #FD6E0A;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 0 30px;
+    border-radius: 5px;
+    color: white;
+
+}
+
+.link-btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.primary-color {
+    color: orange;
+}
+
+/* nav-area-start */
+header {
+    background: #FFF8F3;
+    background-image: url(images/header_bg.png), url(images/developer.png);
+    background-repeat: no-repeat;
+    background-position: right bottom, left;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-area {
+
+    margin: 0 180px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav li a {
+
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.compane-name h2 {
+    color: black;
+    font-size: 45px;
+}
+
+/* nav-area-end */
+/* banner-area-start */
+.banner-section {
+    display: flex;
+    align-items: center;
+}
+
+.banner-title {
+    font-size: 35px;
+
+}
+
+.banner-authore-name {
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.banner-decription {
+    font-size: 18px;
+    color: #757575;
+
+}
+
+/* banner-area-end */
+
+/* about-area-start */
+main {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.About-area {
+    background: #FFF8F3;
+    margin-top: 130px;
+    text-align: center;
+    padding: 50px 150px;
+}
+
+.authore-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.authore-title {
+    color: #757575;
+    font-size: 20px;
+    margin-bottom: -20px;
+}
+
+.authore-name {
+    font-size: 20px;
+    color: #474747;
+    font-weight: 700;
+}
+
+.section-title {
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+.about-decription {
+    font-size: 18px;
+    color: #757575;
+}
+
+/* about-area-end */
+/* skile-area-start */
+.skil-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skil {
+    box-shadow: 5px 5px 20px gray;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skil-decription {
+    color: #768687;
+}
+
+.skil-section {
+    margin-top: 130px;
+    text-align: center;
+    margin-bottom: 130px;
+
+}
+
+/* skil-area-end */
+
+/* Resume-area-start */
+.summary-area {
+    margin-bottom: 130px;
+}
+
+.section-title {
+    text-align: center;
+}
+
+.colifection-title {
+    font-size: 18px;
+    color: #000052;
+}
+
+.colifection-area {
+    display: flex;
+    gap: 24px;
+}
+
+.author-title {
+    font-size: 30px;
+    color: #474747;
+    font-weight: 600;
+}
+
+.author-sub-title {
+    color: #757575;
+    font-size: 20px;
+    margin-top: -20px;
+}
+
+.author-decription {
+    color: #757575;
+}
+
+.btn {
+    text-align: center;
+    margin-top: 60px;
+}
+
+/* Resume-area-end */
+/* contact-area-start */
+.contact-area {
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    padding: 130px 180px;
+}
+
+.socile-icon {
+    display: flex;
+}
+
+.socile-icon li {
+    list-style: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+.contact-title {
+    font-size: 30px;
+}
+
+.contact-decription {
+    color: #757575;
+    font-size: 18px;
+}
+
+.form input[type="text"],
+[type="email"],
+textarea {
+    width: 100%;
+    border: 0;
+    padding: 18px 30px;
+    margin-bottom: 24px;
+}
+
+form {
+    display: block;
+}
+
+input {
+    height: 64px;
+}
+
+/* contact-area-end */
